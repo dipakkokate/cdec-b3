@@ -1,2 +1,7 @@
-this is my firsy file v1 
-this is v2 
+spring.datasource.url=jdbc:mariadb://database-2.caj68k4a82c9.us-east-1.rds.amazonaws.com:3306/student_db?sslMode=REQUIRED
+spring.datasource.username=admin
+spring.datasource.password=12345678
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+
+spring.jpa.database-platform=org.hibernate.dialect.MariaDBDialect
+spring.jpa.hibernate.ddl-auto=update
